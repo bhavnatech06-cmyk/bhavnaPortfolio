@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="expense.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Expense Tracker</h1>
+
+        <h4>YOUR BALANCE</h4>
+        <h1 id="balance">₹0.00</h1>
+
+        <div class="inc-exp">
+            <div class="track">
+                <h4>Income</h4>
+                <p id="addIncome">+₹0.00</p>
+            </div>
+            <div class="track">
+                <h4>Expense</h4>
+                <p id="addExpense">-₹0.00</p>
+            </div>
+        </div>
+        <form id="expense-form">
+            <input type="text" id="expense-name" placeholder="Enter Text..." required>
+            <input type="number" id="expense-amount" placeholder="Amount(+/-)..." required>
+            <br><br>
+            <button type="submit">Add Transaction</button>
+        </form>
+        <table id="expense-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Amount</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+    <script src="expense.js"></script>
+</body>
+
+</html>
