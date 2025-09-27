@@ -1,0 +1,96 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(100deg, #75c0d6, #fbc2eb);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    height: 150vh;
+}
+
+header {
+    background-color: #1f0437;
+}
+
+nav {
+    height: 110px;
+}
+
+nav img {
+    width: 100%;
+    height: 100%;
+}
+
+h2 {
+    margin-top: 100px;
+    font-size: 2rem;
+}
+
+.container {
+    background-color: #1f0437;
+    width: min(100vw, 450px);
+    height: 30vh;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #002ead;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    padding: 30px;
+}
+ 
+label {
+    color: aliceblue;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input {
+    width: 50%;
+    padding: 10px;
+    margin: 30px 20px;
+    border-radius: 5px;
+    border: 1px solid #fbc2eb;
+}
+
+button {
+    background-color: #fbc2eb;
+    color: #1f0437;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+button:hover {
+    box-shadow: 0 0 6px #fbc2eb;
+}
+
+.card {
+    background-color: #1f0437;
+    width: 40vw;
+    height: 30vh;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(3, 27, 106, 0.1);
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 50px;
+    color: thistle; 
+    display: flex;
+    flex-direction: row;
+}
+
+i {
+    font-size: 2rem;
+    margin: 0 20px 30px 10px;
+}
